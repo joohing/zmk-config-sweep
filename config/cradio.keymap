@@ -7,27 +7,27 @@
 
         Chars {
             bindings = <
-&kp Z  &kp X  &kp C  &kp V  &kp B        &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH
-&kp A  &kp S  &kp D  &kp F  &kp G        &kp H      &kp J  &kp K      &kp L    &kp APOS
 &kp Q  &kp W  &kp E  &kp R  &kp T        &kp Y      &kp U  &kp I      &kp O    &kp P
+&kp A  &kp S  &kp D  &kp F  &kp G        &kp H      &kp J  &kp K      &kp L    &kp APOS
+&kp Z  &kp X  &kp C  &kp V  &kp B        &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH
                      &to 1  &kp LSHFT    &kp SPACE  &to 2
             >;
         };
 
         Symbols {
             bindings = <
-&kp EXCL   &kp SLASH      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH         &kp PLUS   &kp BSPC              &kp DEL    &trans     &kp PERCENT
-&kp UNDER  &kp PIPE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR       &kp STAR   &kp MINUS             &kp EQUAL  &kp TILDE  &kp AT
 &kp ESC    &kp BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND    &kp CARET  &kp LA(SINGLE_QUOTE)  &kp LA(O)  &kp LA(A)  &kp GRAVE
+&kp UNDER  &kp PIPE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR       &kp STAR   &kp MINUS             &kp EQUAL  &kp TILDE  &kp AT
+&kp EXCL   &kp SLASH      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH         &kp PLUS   &kp BSPC              &kp DEL    &trans     &kp PERCENT
                                                 &trans                 &trans           &kp ENTER  &kp TAB
             >;
         };
 
         nav-num-colons-mods {
             bindings = <
-&kp LSHFT  &kp N7  &kp N8  &kp N9     &kp N0           &trans    &trans         &trans     &trans     &kp RSHFT
-&kp RCTRL  &kp N4  &kp N5  &kp N6     &kp SEMICOLON    &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT  &kp LCTRL
 &trans     &kp N1  &kp N2  &kp N3     &kp COLON        &kp HOME  &kp PAGE_DOWN  &kp PG_UP  &kp END    &trans
+&kp RCTRL  &kp N4  &kp N5  &kp N6     &kp SEMICOLON    &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT  &kp LCTRL
+&kp LSHFT  &kp N7  &kp N8  &kp N9     &kp N0           &trans    &trans         &trans     &trans     &kp RSHFT
                            &kp SPACE  &kp LGUI         &trans    &trans
             >;
         };
