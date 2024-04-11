@@ -17,9 +17,9 @@
 
         Symbols {
             bindings = <
-&kp ESC    &kp BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND    &kp CARET  &kp LA(SINGLE_QUOTE)  &kp LA(O)  &kp LA(A)      &kp GRAVE
-&kp UNDER  &kp PIPE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR       &kp STAR   &kp MINUS             &kp EQUAL  &kp TILDE      &kp AT
-&kp EXCL   &kp SLASH      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH         &kp PLUS   &kp BSPC              &kp DEL    &kp RIGHT_ALT  &kp PERCENT
+&kp ESC    &kp BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND    &kp CARET  &kp LA(SINGLE_QUOTE)  &kp LA(O)  &kp LA(A)  &kp GRAVE
+&kp UNDER  &kp PIPE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR       &kp STAR   &kp MINUS             &kp EQUAL  &kp TILDE  &kp RCMD
+&kp EXCL   &kp SLASH      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH         &kp PLUS   &kp BSPC              &kp DEL    &kp AT     &kp PERCENT
                                                 &trans                 &kp LEFT_ALT     &kp ENTER  &kp TAB
             >;
         };
