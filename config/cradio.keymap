@@ -9,36 +9,36 @@
         Chars {
             bindings = <
 &kp Q  &kp W  &kp E  &kp R  &kp T        &kp Y      &kp U  &kp I      &kp O    &kp P
-&kp A  &kp S  &kp D  &kp F  &kp G        &kp H      &kp J  &kp K      &kp L    &kp APOS
-&kp Z  &kp X  &kp C  &kp V  &kp B        &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH
+&kp A  &kp S  &kp D  &kp F  &kp G        &kp H      &kp J  &kp K      &kp L    &kp RCTRL
+&kp Z  &kp X  &kp C  &kp V  &kp B        &kp N      &kp M  &kp COMMA  &kp DOT  &kp RIGHT_GUI
                      &mo 1  &kp LSHFT    &kp SPACE  &mo 2
             >;
         };
 
         Symbols {
             bindings = <
-&kp ESC    &kp BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND    &kp CARET  &kp LA(SINGLE_QUOTE)  &kp LA(O)  &kp LA(A)  &kp GRAVE
-&kp UNDER  &kp PIPE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR       &kp STAR   &kp MINUS             &kp EQUAL  &kp TILDE  &kp RCMD
-&kp EXCL   &kp SLASH      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH         &kp PLUS   &kp BSPC              &kp DEL    &kp AT     &kp PERCENT
+&kp ESC    &kp BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND    &kp CARET  &kp LA(SINGLE_QUOTE)  &kp LA(O)  &kp LA(A)    &kp GRAVE
+&kp UNDER  &kp PIPE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR       &kp STAR   &kp MINUS             &kp EQUAL  &kp PERCENT  &kp SINGLE_QUOTE
+&kp EXCL   &kp SLASH      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH         &kp PLUS   &kp BSPC              &kp DEL    &kp AT       &trans
                                                 &trans                 &kp LEFT_ALT     &kp ENTER  &kp TAB
             >;
         };
 
         nav-num-colons-mods {
             bindings = <
-&kp NUMBER_1  &kp N2     &kp N3   &kp N4     &kp N5       &kp HOME    &kp PAGE_DOWN  &kp PG_UP  &kp END    &kp C_VOL_UP
-&kp N6        &kp N7     &kp N8   &kp N9     &kp N0       &kp LEFT    &kp DOWN       &kp UP     &kp RIGHT  &kp C_VOL_DN
-&kp LSHFT     &kp LCTRL  &kp TAB  &kp SEMI   &kp COLON    &kp C_PREV  &kp C_NEXT     &kp C_PP   &kp RCTRL  &kp RSHFT
-                                  &kp SPACE  &kp LGUI     &mo 3       &trans
+&kp NUMBER_1    &kp N2     &kp N3   &kp N4        &kp N5       &kp HOME   &kp PAGE_DOWN  &kp PG_UP  &kp END    &none
+&kp N6          &kp N7     &kp N8   &kp N9        &kp N0       &kp LEFT   &kp DOWN       &kp UP     &kp RIGHT  &none
+&kp LEFT_SHIFT  &kp LCTRL  &kp TAB  &kp LEFT_ALT  &kp COLON    &kp COLON  &kp SEMICOLON  &none      &kp RCTRL  &sk LC(LA(LEFT_SHIFT))
+                                    &kp SPACE     &kp LGUI     &mo 3      &trans
             >;
         };
 
         bluetooth-reset-bootloader {
             bindings = <
-&sys_reset   &trans          &trans  &trans      &bt BT_SEL 0    &trans  &trans  &trans  &trans  &sys_reset
-&trans       &trans          &trans  &trans      &bt BT_SEL 1    &trans  &trans  &trans  &trans  &trans
-&bootloader  &bt BT_CLR_ALL  &trans  &bt BT_CLR  &bt BT_SEL 2    &trans  &trans  &trans  &trans  &bootloader
-                                     &trans      &trans          &trans  &trans
+&sys_reset   &trans          &trans  &trans      &bt BT_SEL 0    &kp C_VOL_UP  &trans      &trans    &trans  &sys_reset
+&trans       &trans          &trans  &trans      &bt BT_SEL 1    &kp C_VOL_DN  &trans      &trans    &trans  &trans
+&bootloader  &bt BT_CLR_ALL  &trans  &bt BT_CLR  &bt BT_SEL 2    &kp C_PREV    &kp C_NEXT  &kp C_PP  &trans  &bootloader
+                                     &trans      &trans          &trans        &trans
             >;
         };
     };
