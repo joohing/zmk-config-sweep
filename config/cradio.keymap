@@ -76,7 +76,7 @@
 
         Symbols {
             bindings = <
-&kp AT_SIGN  &kp BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND    &kp CARET  &kp LA(SINGLE_QUOTE)  &kp LA(O)  &kp LA(A)     &kp GRAVE
+&kp AT_SIGN  &kp BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND    &kp CARET  &kp LA(SINGLE_QUOTE)  &kp LA(A)  &kp LA(O)     &kp GRAVE
 &kp UNDER    &kp PIPE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR       &kp STAR   &sk LCMD              &sk LCTRL  &sk LEFT_ALT  &sk LEFT_SHIFT
 &kp EXCL     &kp SLASH      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH         &kp PLUS   &kp EXCLAMATION       &kp MINUS  &kp EQUAL     &kp PERCENT
                                                   &trans                 &mo 5            &kp ENTER  &kp TAB
