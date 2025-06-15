@@ -47,6 +47,11 @@
             bindings = <&kp DELETE>;
             key-positions = <7 8>;
         };
+
+        commadot_underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <27 28>;
+        };
     };
 
     keymap {
@@ -81,7 +86,7 @@
 
         Symbols {
             bindings = <
-&kp AT_SIGN     &trans         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans    &trans     &kp LA(SINGLE_QUOTE)  &kp LA(A)  &kp LA(O)     &trans
+&trans          &trans         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans    &trans     &kp LA(SINGLE_QUOTE)  &kp LA(A)  &kp LA(O)     &trans
 &trans          &kp BACKSLASH  &trans            &trans             &trans    &trans     &sk LCMD              &sk LCTRL  &sk LEFT_ALT  &sk LEFT_SHIFT
 &kp APOSTROPHE  &trans         &trans            &trans             &trans    &trans     &trans                &kp MINUS  &kp EQUAL     &trans
                                                  &trans             &mo 5     &kp ENTER  &kp TAB
