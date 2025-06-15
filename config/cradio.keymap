@@ -43,9 +43,9 @@
             layers = <1>;
         };
 
-        io_delete {
+        l-semicolon_delete {
             bindings = <&kp DELETE>;
-            key-positions = <7 8>;
+            key-positions = <18 19>;
         };
 
         commadot_underscore {
