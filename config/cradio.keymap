@@ -42,6 +42,11 @@
             key-positions = <13 14>;
             layers = <1>;
         };
+
+        io_delete {
+            bindings = <&kp DELETE>;
+            key-positions = <7 8>;
+        };
     };
 
     keymap {
@@ -76,19 +81,19 @@
 
         Symbols {
             bindings = <
-&kp AT_SIGN  &kp BACKSLASH  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AMPERSAND    &kp CARET  &kp LA(SINGLE_QUOTE)  &kp LA(A)  &kp LA(O)     &kp GRAVE
-&kp UNDER    &kp PIPE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR       &kp STAR   &sk LCMD              &sk LCTRL  &sk LEFT_ALT  &sk LEFT_SHIFT
-&kp EXCL     &kp SLASH      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH         &kp PLUS   &kp EXCLAMATION       &kp MINUS  &kp EQUAL     &kp PERCENT
-                                                  &trans                 &mo 5            &kp ENTER  &kp TAB
+&kp AT_SIGN     &trans         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans    &trans     &kp LA(SINGLE_QUOTE)  &kp LA(A)  &kp LA(O)     &trans
+&trans          &kp BACKSLASH  &trans            &trans             &trans    &trans     &sk LCMD              &sk LCTRL  &sk LEFT_ALT  &sk LEFT_SHIFT
+&kp APOSTROPHE  &trans         &trans            &trans             &trans    &trans     &trans                &kp MINUS  &kp EQUAL     &kp PERCENT
+                                                 &trans             &mo 5     &kp ENTER  &kp TAB
             >;
         };
 
         nav-num-colons-mods {
             bindings = <
-&kp NUMBER_1    &kp N2             &kp N3         &kp N4     &kp N5               &kp NUMBER_6  &kp N7     &kp N8         &kp N9     &kp N0
-&sk LSHFT       &sk LALT           &sk LCTRL      &sk LCMD   &kp N0               &kp LEFT      &kp DOWN   &kp UP         &kp RIGHT  &kp C_VOL_UP
-&kp APOSTROPHE  &kp LA(LS(LCTRL))  &kp SEMICOLON  &kp COLON  &kp DOUBLE_QUOTES    &kp HOME      &kp PG_UP  &kp PAGE_DOWN  &kp END    &kp C_VOL_DN
-                                                  &trans     &kp ESCAPE           &mo 5         &trans
+&kp NUMBER_1  &kp N2             &kp N3     &kp N4    &kp N5        &kp NUMBER_6  &kp N7     &kp N8         &kp N9     &kp N0
+&sk LSHFT     &sk LALT           &sk LCTRL  &sk LCMD  &trans        &kp LEFT      &kp DOWN   &kp UP         &kp RIGHT  &kp C_VOL_UP
+&trans        &kp LA(LS(LCTRL))  &trans     &trans    &kp GRAVE     &kp HOME      &kp PG_UP  &kp PAGE_DOWN  &kp END    &kp C_VOL_DN
+                                            &trans    &kp ESCAPE    &mo 5         &trans
             >;
         };
 
