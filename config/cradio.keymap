@@ -26,10 +26,10 @@
             layers = <0>;
         };
 
-        qw_escape {
+        gamer_escape {
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
-            layers = <0 1>;
+            layers = <1>;
         };
 
         quoteslash_pause {
