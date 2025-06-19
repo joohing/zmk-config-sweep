@@ -88,9 +88,9 @@
             >;
         };
 
-        Symbols {
+        navs_and_stuff {
             bindings = <
-&kp ESCAPE      &trans        &trans     &trans        &kp DOUBLE_QUOTES    &trans    &kp LA(SINGLE_QUOTE)  &kp LA(A)  &kp LA(O)  &kp BACKSPACE
+&kp ESCAPE      &trans        &kp GRAVE  &kp TILDE     &kp DOUBLE_QUOTES    &trans    &kp LA(SINGLE_QUOTE)  &kp LA(A)  &kp LA(O)  &kp BACKSPACE
 &sk LEFT_SHIFT  &sk LEFT_ALT  &sk LCTRL  &sk LEFT_GUI  &kp APOS             &kp LEFT  &kp DOWN              &kp UP     &kp RIGHT  &trans
 &trans          &trans        &trans     &trans        &trans               &trans    &trans                &trans     &trans     &trans
                                          &trans        &trans               &trans    &trans
