@@ -90,19 +90,19 @@
 
         navs_and_stuff {
             bindings = <
-&kp ESCAPE      &trans        &kp GRAVE  &kp TILDE     &kp DOUBLE_QUOTES    &trans    &kp LA(SINGLE_QUOTE)  &kp LA(A)  &kp LA(O)  &kp BACKSPACE
-&sk LEFT_SHIFT  &sk LEFT_ALT  &sk LCTRL  &sk LEFT_GUI  &kp APOS             &kp LEFT  &kp DOWN              &kp UP     &kp RIGHT  &trans
-&trans          &trans        &trans     &trans        &trans               &trans    &trans                &trans     &trans     &trans
-                                         &trans        &trans               &trans    &trans
+&kp ESCAPE      &trans        &kp GRAVE  &kp TILDE      &kp DOUBLE_QUOTES    &trans    &kp LA(SINGLE_QUOTE)  &kp LA(A)  &kp LA(O)  &kp BACKSPACE
+&sk LEFT_SHIFT  &sk LEFT_ALT  &sk LCTRL  &sk LEFT_GUI   &kp APOS             &kp LEFT  &kp DOWN              &kp UP     &kp RIGHT  &trans
+&trans          &trans        &kp AT     &kp AMPERSAND  &kp POUND            &trans    &trans                &trans     &trans     &trans
+                                         &trans         &trans               &trans    &trans
             >;
         };
 
         symbols_and_nums {
             bindings = <
-&kp NUMBER_1    &kp N2           &kp N3     &kp N4          &kp N5         &kp NUMBER_6   &kp N7         &kp N8        &kp N9                &kp N0
-&sk LEFT_BRACE  &sk RIGHT_BRACE  &sk PLUS   &sk UNDERSCORE  &kp PIPE       &kp BACKSLASH  &kp MINUS      &kp EQUAL     &kp LEFT_BRACKET      &kp RIGHT_BRACKET
-&kp EXCL        &kp AT           &kp POUND  &kp DOLLAR      &kp PERCENT    &kp CARET      &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-                                            &trans          &mo 5          &kp ENTER      &kp TAB
+&kp NUMBER_1      &kp N2             &kp N3    &kp N4      &kp N5         &kp NUMBER_6   &kp N7        &kp N8        &kp N9                &kp N0
+&kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PLUS  &kp MINUS   &kp PIPE       &kp BACKSLASH  &sk LEFT_GUI  &sk LCTRL     &sk LEFT_ALT          &sk LSHFT
+&kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EXCL  &kp DOLLAR  &kp PERCENT    &kp CARET      &kp EQUAL     &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+                                               &trans      &mo 5          &kp ENTER      &kp TAB
             >;
         };
 
